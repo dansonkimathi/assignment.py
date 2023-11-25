@@ -1,0 +1,17 @@
+numbers = [12, 45, 33, 14, 12, 76]
+print("Before append:", numbers)
+numbers.append(10)
+numbers.append(20)
+numbers.append(30)
+numbers.append(40)
+
+print("After Append:", numbers)
+numbers.append(15)
+print("After Append:",numbers)
+numbers.append(50)
+numbers.append(60)
+numbers.append(70)
+print("After Append:", numbers)
+numbers.remove(30)
+print("After Append:", numbers)
+print(numbers[5])
